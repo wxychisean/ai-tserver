@@ -1,0 +1,10 @@
+server:
+  port: 10020
+  tomcat.maxConnections: 200
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,text/html,application/javascript,text/plain,text/css,text/javascript
+
+logging:
+  level:
+    com.chisean : info
